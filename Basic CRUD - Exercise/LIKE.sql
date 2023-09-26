@@ -1,5 +1,5 @@
 SELECT
-	name
+	name,
 	start_date
 FROM
 	projects
