@@ -1,6 +1,7 @@
 SELECT
  	car.id AS car_id,
 	car.make,
+	car.mileage,
 	COUNT(cou.id) AS count_of_courses,
 	ROUND(AVG(cou.bill),2) AS average_bill
 FROM
